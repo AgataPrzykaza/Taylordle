@@ -21,7 +21,6 @@
 		FDF9A7AD2C4138E6006E4574 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF9A7AC2C4138E6006E4574 /* GameViewModel.swift */; };
 		FDF9A7B22C414381006E4574 /* GridRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF9A7B12C414381006E4574 /* GridRowView.swift */; };
 		FDFBD6FC2C526BA200390B94 /* StrikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFBD6FB2C526BA200390B94 /* StrikeView.swift */; };
-		FDFBD6FE2C526BAC00390B94 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFBD6FD2C526BAC00390B94 /* MenuView.swift */; };
 		FDFBD7002C526ECF00390B94 /* ToolBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFBD6FF2C526ECF00390B94 /* ToolBarView.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +40,6 @@
 		FDF9A7AC2C4138E6006E4574 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		FDF9A7B12C414381006E4574 /* GridRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridRowView.swift; sourceTree = "<group>"; };
 		FDFBD6FB2C526BA200390B94 /* StrikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrikeView.swift; sourceTree = "<group>"; };
-		FDFBD6FD2C526BAC00390B94 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		FDFBD6FF2C526ECF00390B94 /* ToolBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,7 +100,6 @@
 				FDE5945B2C4FAE9600F210D2 /* SearchView.swift */,
 				FD3CADEA2C51145500B32904 /* QuestionView.swift */,
 				FDFBD6FB2C526BA200390B94 /* StrikeView.swift */,
-				FDFBD6FD2C526BAC00390B94 /* MenuView.swift */,
 				FDFBD6FF2C526ECF00390B94 /* ToolBarView.swift */,
 				FDA7CBA02C53C1DE004A3F68 /* CompletedSongView.swift */,
 			);
@@ -199,7 +196,6 @@
 				FDE5945C2C4FAE9600F210D2 /* SearchView.swift in Sources */,
 				FD3CADE92C5109C300B32904 /* GridRowModel.swift in Sources */,
 				FDF9A7B22C414381006E4574 /* GridRowView.swift in Sources */,
-				FDFBD6FE2C526BAC00390B94 /* MenuView.swift in Sources */,
 				FDE594582C4E874B00F210D2 /* SongModel.swift in Sources */,
 				FD3CADEB2C51145500B32904 /* QuestionView.swift in Sources */,
 				FDF9A79D2C41341D006E4574 /* TaylordleApp.swift in Sources */,
@@ -345,6 +341,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,6 +372,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

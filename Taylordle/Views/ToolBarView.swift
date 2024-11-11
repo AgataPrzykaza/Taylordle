@@ -14,15 +14,7 @@ struct ToolBarView: ToolbarContent {
 
     var body: some ToolbarContent {
         
-        ToolbarItem(placement: .topBarLeading) {
-            
-            NavigationLink {
-                MenuView()
-            } label: {
-                Image(systemName: "line.3.horizontal")
-            }
-
-        }
+       
         
         ToolbarItem(placement: .topBarTrailing) {
             Button {
